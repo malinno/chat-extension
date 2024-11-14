@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+    <style>
+      /* Đặt chiều cao và chiều rộng cho popup */
+      body {
+        width: 500px;
+        height: 500px;
+        margin: 0;
+        padding: 0;
+      }
+  
+      /* Các style khác của extension */
+      #root {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <div id="root" class="flex flex-col h-full w-full">
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
